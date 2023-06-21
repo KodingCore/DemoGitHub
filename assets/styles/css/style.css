@@ -1,3 +1,47 @@
 html {
   font-size: 16px;
+}
+html main {
+  display: flex;
+}
+html div {
+  width: 100px;
+  height: 100px;
+  opacity: 0;
+}
+html #case1 {
+  background-color: red;
+  animation: opacityZeroToOne 1s;
+}
+html #case2 {
+  background-color: orange;
+  animation: opacityZeroToOne 2s;
+}
+html #case3 {
+  background-color: yellow;
+  animation: opacityZeroToOne 3s;
+}
+html #case4 {
+  background-color: green;
+  animation: opacityZeroToOne 4s;
+}
+html #case5 {
+  background-color: blue;
+  animation: opacityZeroToOne 5s;
+}
+html #case6 {
+  background-color: rgb(46, 43, 95);
+  animation: opacityZeroToOne 6s;
+}
+html #case7 {
+  background-color: rgb(139, 0, 255);
+  animation: opacityZeroToOne 7s;
+}
+@keyframes opacityZeroToOne {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
