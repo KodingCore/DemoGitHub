@@ -8,41 +8,29 @@ html div {
   width: 100px;
   height: 100px;
   opacity: 0;
+  animation: opacityZeroToOne 3s;
+  animation-iteration-count: infinite;
 }
 html #case1 {
   background-color: red;
-  animation: opacityZeroToOne 3s;
-  animation-iteration-count: infinite;
 }
 html #case2 {
   background-color: orange;
-  animation: opacityZeroToOne 3s;
-  animation-iteration-count: infinite;
 }
 html #case3 {
   background-color: yellow;
-  animation: opacityZeroToOne 3s;
-  animation-iteration-count: infinite;
 }
 html #case4 {
   background-color: green;
-  animation: opacityZeroToOne 3s;
-  animation-iteration-count: infinite;
 }
 html #case5 {
   background-color: blue;
-  animation: opacityZeroToOne 3s;
-  animation-iteration-count: infinite;
 }
 html #case6 {
   background-color: rgb(46, 43, 95);
-  animation: opacityZeroToOne 3s;
-  animation-iteration-count: infinite;
 }
 html #case7 {
   background-color: rgb(139, 0, 255);
-  animation: opacityZeroToOne 3s;
-  animation-iteration-count: infinite;
 }
 @keyframes opacityZeroToOne {
   0% {
