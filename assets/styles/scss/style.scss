@@ -13,46 +13,56 @@ html{
 
     #case1{
         background-color: red;
-        animation: opacityZeroToOne 1s;
+        animation: opacityZeroToOne 3s;
+        animation-iteration-count: infinite;
     }
 
     #case2{
         background-color: orange;
-        animation: opacityZeroToOne 2s;
+        animation: opacityZeroToOne 3s;
+        animation-iteration-count: infinite;
     }
 
     #case3{
         background-color: yellow;
         animation: opacityZeroToOne 3s;
+        animation-iteration-count: infinite;
     }
 
     #case4{
         background-color: green;
-        animation: opacityZeroToOne 4s;
+        animation: opacityZeroToOne 3s;
+        animation-iteration-count: infinite;
     }
 
     #case5{
         background-color: blue;
-        animation: opacityZeroToOne 5s;
+        animation: opacityZeroToOne 3s;
+        animation-iteration-count: infinite;
     }
 
     #case6{
         background-color: rgb(46, 43, 95);
-        animation: opacityZeroToOne 6s;
+        animation: opacityZeroToOne 3s;
+        animation-iteration-count: infinite;
     }
 
     #case7{
         background-color: rgb(139, 0, 255);
-        animation: opacityZeroToOne 7s;
+        animation: opacityZeroToOne 3s;
+        animation-iteration-count: infinite;
     }
 
 
     @keyframes opacityZeroToOne {
-        from{
+        0%{
             opacity: 0;
         }
-        to{
+        50%{
             opacity: 1;
+        }
+        100%{
+            opacity: 0;
         }
     }
 }
